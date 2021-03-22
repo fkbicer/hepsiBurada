@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="103.24">
+<testcase classname="US1001_hepsiburada_urun_detay" name="TC2.2_hepsiburada_dropdown_detay" time="102.942">
+<system-out><![CDATA[Given Kullanici hepsiburada sitesini ziyaret eder...........................passed
+And Kullanici "iphone" urununu aratir.......................................passed
+And Kullanici arama sonucu gelen urun listesinden urun secer ve urun detay sayfasina gider.passed
+And Kullanici secilen urun icin urun detayda degerlendirmeler tabina gider..passed
+And Kullanici sirala dropbox'ina tiklar.....................................passed
+Then En yeni değerlendirme, En faydalı değerlendirme, Puana göre azalan, Puana göre artan değerlerinin geldiği assert edilir..passed
+]]></system-out>
+</testcase>
+</testsuite>

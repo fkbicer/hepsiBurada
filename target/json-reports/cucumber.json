@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27664000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanici hepsiburada sitesini ziyaret eder",
+            "match": {
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.kullanici_hepsiburada_sitesini_ziyaret_eder()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici \"iphone\" urununu aratir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.kullanici_urununu_aratir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69560000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici arama sonucu gelen urun listesinden urun secer ve urun detay sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.kullanici_arama_sonucu_gelen_urun_listesinden_urun_secer_ve_urun_detay_sayfasina_gider()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5025000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici secilen urun icin urun detayda degerlendirmeler tabina gider",
+            "match": {
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.kullanici_secilen_urun_icin_urun_detayda_degerlendirmeler_tabina_gider()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T17:49:36.266Z",
+        "line": 16,
+        "name": "TC2.2_hepsiburada_dropdown_detay",
+        "description": "",
+        "id": "us1001-hepsiburada-urun-detay;tc2.2-hepsiburada-dropdown-detay",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Kullanici sirala dropbox\u0027ina tiklar",
+            "match": {
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.kullanici_sirala_dropbox_ina_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "En yeni değerlendirme, En faydalı değerlendirme, Puana göre azalan, Puana göre artan değerlerinin geldiği assert edilir.",
+            "match": {
+              "location": "stepdefinitions.HepsiburadaStepDefinitions.en_yeni_değerlendirme_en_faydalı_değerlendirme_puana_göre_azalan_puana_göre_artan_değerlerinin_geldiği_assert_edilir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsiburada2"
+          }
+        ]
+      }
+    ],
+    "name": "US1001_hepsiburada_urun_detay",
+    "description": "",
+    "id": "us1001-hepsiburada-urun-detay",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1001_hepsiburada_urun_detay.feature",
+    "tags": []
+  }
+]
